@@ -1,0 +1,6 @@
+@import 'tailwindcss';
+
+/* Optional: tiny bit of base smoothing */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
