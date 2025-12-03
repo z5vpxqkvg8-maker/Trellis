@@ -129,12 +129,12 @@ export default function EngagementList() {
                 <div className="flex flex-wrap items-center gap-2">
                   <Link
                     href={`/engagement/${engagement.id}`}
-                    className="inline-flex items-center justify-center rounded-md bg-slate-100 px-3 py-1.5 text-xs font-medium text-slate-800 hover:bg-slate-200"
+                    className="inline-flex items-center justify-center rounded-md bg-slate-100 px-3 py-1.5 text-xs font-medium text-slate-700 hover:bg-slate-200"
                   >
                     Open engagement
                   </Link>
 
-                  <CopyLinkButton engagementId={engagement.id} />
+                  <CopyLinkButton path={`/engagement/${engagement.id}`} />
                 </div>
               </div>
             );
